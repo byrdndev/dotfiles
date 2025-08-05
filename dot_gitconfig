@@ -1,0 +1,7 @@
+[user]
+	name = byrdndev
+	email = m90763989@gmail.com
+[init]
+	defaultBranch = main
+[color]
+	ui = auto

@@ -18,8 +18,8 @@
           "type": "session"
         },
         {
-          "background": "#ffffd6",
-          "foreground": "p:black",
+          "background": "default",
+          "foreground": "#FF928B",
           "properties": {
             "branch_icon": " \ue0a0 "
           },

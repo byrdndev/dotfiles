@@ -1,0 +1,21 @@
+[window]
+padding = { x = 10, y = 5 }
+decorations = "None"
+opacity = 0.9
+
+[colors.normal]
+green = "#70AE6E"
+blue = "#5C95FF"
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+blink_interval = 1000
+blink_timeout = 0
+unfocused_hollow = false
+thickness = 0.25
+
+[terminal]
+shell = { program = "/bin/zsh", args = ["-l"] }

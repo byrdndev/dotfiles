@@ -2,6 +2,7 @@
 padding = { x = 10, y = 5 }
 decorations = "None"
 opacity = 0.9
+level = "AlwaysOnTop"
 
 [colors.normal]
 green = "#70AE6E"

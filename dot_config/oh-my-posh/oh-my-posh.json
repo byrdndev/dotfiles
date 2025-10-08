@@ -67,7 +67,8 @@
           "properties": {
             "always_enabled": true
           },
-          "template": "$"
+          "template": "»"
+
         }
       ]
     }

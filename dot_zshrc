@@ -113,7 +113,7 @@ fi
 
 
 
-
+alias tmuxx='exit'
 alias tmuxk='tmux kill-server'
 alias zen='flatpak run app.zen_browser.zen'
 

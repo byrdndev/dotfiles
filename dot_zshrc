@@ -103,6 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias tmuxk='tmux kill-server'
+alias zen='flatpak run app.zen_browser.zen'
+
 
 export PATH="$HOME/.local/bin:$PATH"
 eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/oh-my-posh.json)"

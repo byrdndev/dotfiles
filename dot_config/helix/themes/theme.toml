@@ -1,0 +1,44 @@
+# ~/.config/helix/themes/transparent_pastel.toml
+# Transparent theme with soft pastel blue accents
+inherits = "base16_default_dark"
+
+# Core UI elements
+"ui.background" = {}
+"ui.window" = {}
+"ui.popup" = {}
+"ui.menu" = {}
+"ui.menu.selected" = { fg = "#B3E5FC", bg = "#1E1E1E" }
+"ui.statusline" = { fg = "#B3E5FC", bg = "none" }
+"ui.statusline.inactive" = { fg = "#666666", bg = "none" }
+"ui.bufferline.background" = {}
+"ui.selection" = { bg = "#1F2A30" }
+"ui.cursorline" = { bg = "#1E1E1E" }  # subtle dark line highlight
+
+# Line numbers / gutter
+"ui.gutter" = { bg = "none" }
+"ui.linenr" = { fg = "#6FA8DC", bg = "none" }              # soft blue for normal lines
+"ui.linenr.selected" = { fg = "#B3E5FC", bg = "#1E1E1E" }  # lighter pastel blue on current line
+
+# Cursor
+"ui.cursor" = { bg = "#B3E5FC", fg = "#0A0A0A" }
+
+# Text / syntax
+"comment"  = { fg = "#6A737D" }
+"keyword"  = { fg = "#A0D2DB" }   # icy blue
+"string"   = { fg = "#F4B393" }   # soft peach
+"function" = { fg = "#C1E1C1" }   # mint green
+"type"     = { fg = "#B3E5FC" }   # pastel blue for types
+"constant" = { fg = "#9ADBF9" }   # lighter accent for constants
+"number"   = { fg = "#9ADBF9" }
+"operator" = { fg = "#A0D2DB" }
+
+# Diagnostics
+"diagnostic.error" = { fg = "#FF8A80" }   # soft red
+"diagnostic.warning" = { fg = "#FFD180" } # pastel yellow
+"diagnostic.info" = { fg = "#80D8FF" }
+"diagnostic.hint" = { fg = "#A7FFEB" }
+
+# UI enhancements
+"ui.text" = { fg = "#E0E0E0" }
+"ui.text.focus" = { fg = "#B3E5FC" }
+"ui.picker.header" = { fg = "#B3E5FC", bg = "none" }

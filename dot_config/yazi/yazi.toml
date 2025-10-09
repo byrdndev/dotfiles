@@ -22,3 +22,4 @@ max_width = 300
 edit = [
   { run = 'hx "$@"', block = true, for = "unix" },
 ]
+

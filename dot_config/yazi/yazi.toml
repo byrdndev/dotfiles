@@ -12,9 +12,9 @@ scrolloff = 10
 
 [preview]
 wrap = "yes"
-max_width = 50
-max_height = 50
-image_delay = 50
+max_width = 300
+max_height = 200
+image_delay = 200
 image_filter = "nearest"
 image_quality = 50
 

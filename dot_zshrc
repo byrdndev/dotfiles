@@ -102,15 +102,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# Auto-start tmux if not already inside one
-
-# On terminal start, attach to previous tmux window if it exists, else create a new one.
-if command -v tmux &>/dev/null; then
-  if [ -z "$TMUX" ]; then
-    tmux attach || tmux new
-  fi
-fi
-
 
 
 alias tmuxx='exit'

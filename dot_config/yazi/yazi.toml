@@ -20,6 +20,6 @@ max_width = 300
 
 [opener]
 edit = [
-  { run = 'hx "$@"', block = true, for = "unix" },
+  { run = 'hx "$@"', block = false, for = "unix" },
 ]
 

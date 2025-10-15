@@ -107,9 +107,13 @@ alias srcsh='source ~/.zshrc'
 alias tmuxx='exit'
 alias tmuxk='tmux kill-server'
 alias zen='flatpak run app.zen_browser.zen'
+alias ytmusic='yt-dlp -x --audio-format mp3 --embed-thumbnail --add-metadata --no-playlist -o "~/Music/%(artist)s - %(title)s.%(ext)s"'
+
+
 export PATH="$HOME/.local/bin:$PATH"
 
 eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/oh-my-posh.json)"
+
 
 sync() {
     SYNC_DIR="$HOME/Sync"

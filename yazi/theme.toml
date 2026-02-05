@@ -8,3 +8,12 @@ dirs  = []
 files = []
 exts  = []
 conds = []
+
+[mgr]
+cwd = { fg ="green" }
+
+[indicator]
+parent = { fg ="green" }
+current = { fg ="green" }
+preview = { fg ="green" }
+padding = { open: "", close: "" }

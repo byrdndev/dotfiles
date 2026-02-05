@@ -6,8 +6,9 @@ compinit
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' menu select
 
-source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions>
-source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-high>
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 
 . "$HOME/.local/bin/env"
 

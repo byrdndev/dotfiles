@@ -13,7 +13,8 @@ conds = []
 cwd = { fg ="green" }
 
 [indicator]
-parent = { fg ="green" }
-current = { fg ="green" }
-preview = { fg ="green" }
-padding = { open: "", close: "" }
+padding = { open = "", close = "" }
+
+[tabs]
+sep_inner = { open = "", close = "" }
+sep_outer = { open = "", close = "" }

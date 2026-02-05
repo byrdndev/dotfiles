@@ -13,11 +13,11 @@ source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . "$HOME/.local/bin/env"
 
 function y() {
-        local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
-        yazi "$@" --cwd-file="$tmp"
-        if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$>
-                cd -- "$cwd"
-                zle reset-prompt
-        fi
-        rm -f -- "$tmp"
+    local tmp="$(mktemp -t 'yazi-cwd.XXXXXX')"
+    yazi "$@" --cwd-file="$tmp"
+    if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+        cd -- "$cwd"
+        zle reset-prompt
+    fi
+    rm -f -- "$tmp"
 }

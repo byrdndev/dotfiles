@@ -1,4 +1,5 @@
 [status]
+overall = { bg = "reset" }
 sep_left = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
